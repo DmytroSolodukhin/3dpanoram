@@ -26,7 +26,7 @@ function init() {
     geometry.applyMatrix( new THREE.Matrix4().makeScale( -2, 2, 2 ) );
 
     var material = new THREE.MeshBasicMaterial( {
-        map: THREE.ImageUtils.loadTexture( 'pano.jpg' )
+        map: THREE.ImageUtils.loadTexture( 'pano2.jpg' )
     } );
 
     mesh = new THREE.Mesh( geometry, material );
