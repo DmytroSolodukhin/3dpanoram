@@ -41,27 +41,28 @@ function init() {
 
     container = document.getElementById( 'container' );
 
-    camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 1100 );
+    camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
     camera.target = new THREE.Vector3( 0, 0, 0 );
 
     scene = new THREE.Scene();
 
-    var geometry = new THREE.SphereGeometry( 40, 40, 40 );
-    geometry.applyMatrix( new THREE.Matrix4().makeScale( -1, 1, 1 ) );
+    var geometry = new THREE.SphereGeometry( 30, 30, 30 );
+    geometry.applyMatrix( new THREE.Matrix4().makeScale( 1, 1, -1 ) );
 
     var material = new THREE.MeshBasicMaterial( {
-        map: THREE.ImageUtils.loadTexture( 'pano2.jpg' )
+        map: THREE.ImageUtils.loadTexture( 'pano2.jpg' ),
+        overdraw:true
     } );
 
     mesh = new THREE.Mesh( geometry, material );
 
     scene.add( mesh );
 
-    //renderer = new THREE.WebGLRenderer();
+    renderer = doOnLoad();
 
-        renderer = doOnLoad();
 
     renderer.setSize( window.innerWidth, window.innerHeight );
+
     container.appendChild( renderer.domElement );
 
     document.addEventListener( 'mousedown', onDocumentMouseDown, false );
@@ -81,13 +82,13 @@ function init() {
 
     document.addEventListener( 'dragenter', function ( event ) {
 
-        document.body.style.opacity = 0.5;
+        document.body.style.opacity = 0.1;
 
     }, false );
 
     document.addEventListener( 'dragleave', function ( event ) {
 
-        document.body.style.opacity = 1;
+        document.body.style.opacity = 0.1;
 
     }, false );
 
@@ -104,7 +105,7 @@ function init() {
         }, false );
         reader.readAsDataURL( event.dataTransfer.files[ 0 ] );
 
-        document.body.style.opacity = 1;
+        document.body.style.opacity = 0.1;
 
     }, false );
 
@@ -120,6 +121,7 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
 
     renderer.setSize( window.innerWidth, window.innerHeight );
+
 
 }
 
@@ -210,6 +212,8 @@ function update() {
      camera.position.copy( camera.target ).negate();
      */
 
+    renderer.setClearColor(0,1);
+    renderer.clear();
     renderer.render( scene, camera );
 
 }
