@@ -7,6 +7,30 @@ var texture_placeholder,
     lon = 0, onMouseDownLon = 0,
     lat = 0, onMouseDownLat = 0,
     phi = 0, theta = 0;
+var webGl = null;
+
+function doOnLoad(){
+    var myCanvas = document.getElementById("mycanvas");
+    var glContextName = ["webgl", "experimental-webgl", "webkit-3d", "moz-webgl"];
+    for(var i = 0; i < glContextName.length; ++i){
+        try{
+            webGl = myCanvas.getContext(glContextName[i]);
+        }catch(e){
+        }
+        if(webGl){
+            break;
+        }
+    }
+    document.getElementById( 'container').innerHTML="";
+    if(webGl != null){
+        return(new THREE.WebGLRenderer());
+    }else{
+        return(new THREE.CanvasRenderer());
+    }
+
+}
+
+
 
 init();
 animate();
@@ -22,8 +46,8 @@ function init() {
 
     scene = new THREE.Scene();
 
-    var geometry = new THREE.SphereGeometry( 80, 80, 80 );
-    geometry.applyMatrix( new THREE.Matrix4().makeScale( -2, 2, 2 ) );
+    var geometry = new THREE.SphereGeometry( 40, 40, 40 );
+    geometry.applyMatrix( new THREE.Matrix4().makeScale( -1, 1, 1 ) );
 
     var material = new THREE.MeshBasicMaterial( {
         map: THREE.ImageUtils.loadTexture( 'pano2.jpg' )
@@ -33,7 +57,10 @@ function init() {
 
     scene.add( mesh );
 
-    renderer = new THREE.WebGLRenderer();
+    //renderer = new THREE.WebGLRenderer();
+
+        renderer = doOnLoad();
+
     renderer.setSize( window.innerWidth, window.innerHeight );
     container.appendChild( renderer.domElement );
 
