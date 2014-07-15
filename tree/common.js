@@ -1,15 +1,23 @@
 
 var camera, scene, renderer;
 
-var texture_placeholder,
-    isUserInteracting = false,
-    onMouseDownMouseX = 0, onMouseDownMouseY = 0,
-    lon = 0, onMouseDownLon = 0,
-    lat = 0, onMouseDownLat = 0,
-    phi = 0, theta = 0;
-var webGl = null;
+var isUserInteracting = false,
+    lon = 0,
+    lat = 0,
+    phi = 0, theta = 0,
+    webGl = null;
 
+
+init();
+animate();
+
+/**
+ * проверка на возможность подключение WEBGL,
+ * в случае неудачи возвращаем рендеринг канваса
+ * @returns {*}
+ */
 function doOnLoad(){
+
     var myCanvas = document.getElementById("mycanvas");
     var glContextName = ["webgl", "experimental-webgl", "webkit-3d", "moz-webgl"];
     for(var i = 0; i < glContextName.length; ++i){
@@ -30,11 +38,9 @@ function doOnLoad(){
 
 }
 
-
-
-init();
-animate();
-
+/**
+ * инициализация панорамы
+ */
 function init() {
 
     var container, mesh;
@@ -47,7 +53,8 @@ function init() {
     scene = new THREE.Scene();
 
     var geometry = new THREE.SphereGeometry( 30, 30, 30 );
-    geometry.applyMatrix( new THREE.Matrix4().makeScale( 1, 1, -1 ) );
+    geometry.applyMatrix( new THREE.Matrix4().makeScale( -1, 1, 1 ) );
+
 
     var material = new THREE.MeshBasicMaterial( {
         map: THREE.ImageUtils.loadTexture( 'pano2.jpg' ),
@@ -56,7 +63,18 @@ function init() {
 
     mesh = new THREE.Mesh( geometry, material );
 
-    scene.add( mesh );
+            var okno = new THREE.PlaneGeometry(window.innerWidth, window.innerHeight), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000});
+
+           // okno.applyMatrix(new THREE.Matrix4().makeScale(1,1,1));
+            okno.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
+    okno.applyMatrix(new THREE.Matrix4().setPosition(1,1,1));
+
+            // реальный обьект
+            var oknoreal = new THREE.Line(okno,baselinemater);
+            scene.add( oknoreal );
+
+
+    //scene.add( mesh );
 
     renderer = doOnLoad();
 
@@ -70,8 +88,6 @@ function init() {
     document.addEventListener( 'mouseup', onDocumentMouseUp, false );
     document.addEventListener( 'mousewheel', onDocumentMouseWheel, false );
     document.addEventListener( 'DOMMouseScroll', onDocumentMouseWheel, false);
-
-    //
 
     document.addEventListener( 'dragover', function ( event ) {
 
@@ -109,10 +125,7 @@ function init() {
 
     }, false );
 
-    //
-
     window.addEventListener( 'resize', onWindowResize, true );
-
 }
 
 function onWindowResize() {
@@ -139,6 +152,11 @@ function onDocumentMouseDown( event ) {
 
 }
 
+
+/**
+ * прокрутка панорамы за мышью
+ * @param event
+ */
 function onDocumentMouseMove( event ) {
 
     if ( isUserInteracting === true ) {
@@ -150,6 +168,10 @@ function onDocumentMouseMove( event ) {
 
 }
 
+/**
+ * захват панорамы для перемещения
+ * @param event
+ */
 function onDocumentMouseUp( event ) {
 
     isUserInteracting = false;
@@ -164,24 +186,24 @@ function onDocumentMouseWheel( event ) {
 
         camera.fov -= event.wheelDeltaY * 0.05;
 
-        // Opera / Explorer 9
-
+    // Opera / Explorer 9
     } else if ( event.wheelDelta ) {
 
         camera.fov -= event.wheelDelta * 0.05;
 
-        // Firefox
-
+    // Firefox
     } else if ( event.detail ) {
 
         camera.fov += event.detail * 1.0;
-
     }
 
     camera.updateProjectionMatrix();
 
 }
 
+/**
+ * анимация при перемещении
+ */
 function animate() {
 
     requestAnimationFrame( animate );
@@ -189,31 +211,36 @@ function animate() {
 
 }
 
+
+/**
+ * установка позиции камеры
+ */
 function update() {
-
-    if ( isUserInteracting === false ) {
-
-      //  lon += 0.1;
-
-    }
 
     lat = Math.max( - 85, Math.min( 85, lat ) );
     phi = THREE.Math.degToRad( 90 - lat );
     theta = THREE.Math.degToRad( lon );
 
+
+    // вращение камеры
     camera.target.x = 500 * Math.sin( phi ) * Math.cos( theta );
     camera.target.y = 500 * Math.cos( phi );
     camera.target.z = 500 * Math.sin( phi ) * Math.sin( theta );
 
     camera.lookAt( camera.target );
 
-    /*
+    // ограничение на приближение и удаление камеры
+    if(camera.fov > 80){
+        camera.fov = 80;
+    };
+    if(camera.fov < 10){
+        camera.fov = 10;
+    };
+
+/*
      // distortion
      camera.position.copy( camera.target ).negate();
-     */
-
-    renderer.setClearColor(0,1);
-    renderer.clear();
+*/
     renderer.render( scene, camera );
 
 }
