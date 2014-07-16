@@ -48,33 +48,56 @@ function init() {
     container = document.getElementById( 'container' );
 
     camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
-    camera.target = new THREE.Vector3( 0, 0, 0 );
-
+    camera.target = new THREE.Vector3( 100, 100, 100 );
+    camera.position.y = 1;
+    camera.position.x = 1;
+    camera.position.z = 1;
     scene = new THREE.Scene();
 
-    var geometry = new THREE.SphereGeometry( 30, 30, 30 );
-    geometry.applyMatrix( new THREE.Matrix4().makeScale( -1, 1, 1 ) );
-
+    var geometry = new THREE.SphereGeometry( 100, 100, 100 );
 
     var material = new THREE.MeshBasicMaterial( {
         map: THREE.ImageUtils.loadTexture( 'pano2.jpg' ),
-        overdraw:true
+        overdraw:true,
+        side:THREE.BackSide
     } );
+
+    /**
+     * координаты
+     * @type {THREE.Mesh}
+     */
+    var xc = new THREE.Geometry(),
+        yc = new THREE.Geometry(),
+        zc = new THREE.Geometry();
+
+    xc.vertices.push(new THREE.Vector3( -100, 0, 0 ), new THREE.Vector3( 100, 0, 0 ));
+    yc.vertices.push(new THREE.Vector3( 0, -100, 0 ), new THREE.Vector3( 0, 100, 0 ));
+    zc.vertices.push(new THREE.Vector3( 0, 0, -100 ), new THREE.Vector3( 0, 0, 100 ));
+
+    var linex = new THREE.Line(xc, new THREE.LineBasicMaterial({color:0xff0000,linewidth:2})),
+        liney = new THREE.Line(yc, new THREE.LineBasicMaterial({color:0x00ff00,linewidth:2})),
+        linez = new THREE.Line(zc, new THREE.LineBasicMaterial({color:0x0000ff,linewidth:2}));
+        scene.add( linex);
+        scene.add( liney);
+        scene.add( linez);
+
 
     mesh = new THREE.Mesh( geometry, material );
 
-            var okno = new THREE.PlaneGeometry(window.innerWidth, window.innerHeight), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000});
+            var okno = new THREE.BoxGeometry(30,5,30), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000,
+                overdraw:true});
 
-           // okno.applyMatrix(new THREE.Matrix4().makeScale(1,1,1));
-            okno.applyMatrix(new THREE.Matrix4().makeRotationX(-Math.PI/2));
-    okno.applyMatrix(new THREE.Matrix4().setPosition(1,1,1));
 
             // реальный обьект
-            var oknoreal = new THREE.Line(okno,baselinemater);
+            var oknoreal = new THREE.Mesh(okno, baselinemater);
+    oknoreal.position.y = -20;
+    oknoreal.position.x = 0;
+    oknoreal.position.z = 0;
+
             scene.add( oknoreal );
 
 
-    //scene.add( mesh );
+    scene.add( mesh );
 
     renderer = doOnLoad();
 
