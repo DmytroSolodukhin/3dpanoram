@@ -41,12 +41,8 @@ function doOnLoad(){
     }
     document.getElementById( 'container').innerHTML="";
     if(webGl != null){
-
-
         return(new THREE.WebGLRenderer());
     }else{
-
-
         return(new THREE.CanvasRenderer());
     }
 
@@ -63,8 +59,8 @@ function init() {
 
     camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
     camera.target = new THREE.Vector3( 100, 100, 100 );
-    camera.position.y =-1;
-    camera.position.x = 1;
+    camera.position.y = 15;
+    camera.position.x = -15;
     camera.position.z = 0;
     scene = new THREE.Scene();
 
@@ -88,39 +84,16 @@ function init() {
 
     mesh = new THREE.Mesh( geometry, material );
 
-
-    /**
-     * координаты
-     * @type {THREE.Mesh}
-     *
-     var xc = new THREE.Geometry(),
-     yc = new THREE.Geometry(),
-     zc = new THREE.Geometry();
-
-     xc.vertices.push(new THREE.Vector3( -100, 0, 0 ), new THREE.Vector3( 100, 0, 0 ));
-     yc.vertices.push(new THREE.Vector3( 0, -100, 0 ), new THREE.Vector3( 0, 100, 0 ));
-     zc.vertices.push(new THREE.Vector3( 0, 0, -100 ), new THREE.Vector3( 0, 0, 100 ));
-
-     var linex = new THREE.Line(xc, new THREE.LineBasicMaterial({color:0xff0000,linewidth:2})),
-     liney = new THREE.Line(yc, new THREE.LineBasicMaterial({color:0x00ff00,linewidth:2})),
-     linez = new THREE.Line(zc, new THREE.LineBasicMaterial({color:0x0000ff,linewidth:2}));
-     scene.add( linex);
-     scene.add( liney);
-     scene.add( linez);
-     /*
-     стрелки
-     */
-
     var s1 = new THREE.Geometry(),
         s2 = new THREE.Geometry();
 
-    s1.vertices.push(new THREE.Vector3( 4, -3, -1 ), new THREE.Vector3( 5, -3, 0 ), new THREE.Vector3( 4, -3, 1 ));
-    //s2.vertices.push(new THREE.Vector3( 0, -100, 0 ), new THREE.Vector3( 0, 100, 0 ));
+    s1.vertices.push(new THREE.Vector3( 4, -10, -5 ), new THREE.Vector3( 15, -10, 0 ), new THREE.Vector3( 4, -10, 5 ));
+    s2.vertices.push(new THREE.Vector3( -4, -10, 5 ), new THREE.Vector3( -15, -10, 0 ), new THREE.Vector3( -4, -10, -5 ));
 
-    var snext = new THREE.Line(s1, new THREE.LineBasicMaterial({color:lite,linewidth:16}));
-    //sprev = new THREE.Line(s2, new THREE.LineBasicMaterial({color:0x0000ff,linewidth:6}));
+    var snext = new THREE.Line(s1, new THREE.LineBasicMaterial({color:lite,linewidth:16})),
+    sprev = new THREE.Line(s2, new THREE.LineBasicMaterial({color:lite,linewidth:16}));
     scene.add( snext);
-    //scene.add( sprev );
+    scene.add( sprev );
     /*
      конец стрелкам
 
@@ -132,19 +105,20 @@ function init() {
 
     // реальный обьект
     var oknoreal = new THREE.Mesh(okno, baselinemater);
-    oknoreal.position.y = -20;
+    oknoreal.position.y = -50;
     oknoreal.position.x = 0;
     oknoreal.position.z = 0;
 
     //ставим на сцену обьекты
     scene.add( mesh );
+
     scene.add( oknoreal );
 
     var domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
 
-    domEvents.addEventListener(oknoreal, 'click', function(event){
-        document.location.href = "/";
-    }, false);
+  /*  domEvents.addEventListener(mesh2, 'click', function(event){
+
+    }, false);*/
 
     domEvents.addEventListener(snext, 'click', function(event){
         alert('next pano');
@@ -320,6 +294,10 @@ function update() {
     camera.target.x = 500 * Math.sin( phi ) * Math.cos( theta );
     camera.target.y = 500 * Math.cos( phi );
     camera.target.z = 500 * Math.sin( phi ) * Math.sin( theta );
+
+    camera.position.x = -30 * Math.sin( phi ) * Math.cos( theta );;
+    camera.position.y = -30 * Math.cos( phi );
+    camera.position.z = -30 * Math.sin( phi ) * Math.sin( theta );
 
     camera.lookAt( camera.target );
 
