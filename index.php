@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link  href="style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript">
+        //здесь будет определятся проэкт панорамы и комната
+        var pano = "<?php echo('firstproject'); ?>", room="<?php echo('firstroom'); ?>";
 
+    </script>
 </head>
 <body>
 
@@ -18,8 +22,8 @@
 
     </div>
     <div id="img_in">
-        <img src="pano3.jpg" width="50">
-        <img src="pano4.jpg" width="50">
+        <img src="projects/firstproject/firstroom/2/pano.jpg" width="50">
+        <img src="projects/firstproject/firstroom/3/pano.jpg" width="50">
     </div>
 </div>
 <div id="menu_next">

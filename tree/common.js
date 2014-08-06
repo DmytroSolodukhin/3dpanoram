@@ -66,9 +66,9 @@ function init() {
 
     var geometry = new THREE.SphereGeometry( 100, 100, 100 );
 
-    var pano = 'pano2.jpg';
+    var panosize = '1';
     if(tablet){
-        pano='pano4.jpg';
+        panosize='3';
     }
 
     renderer = doOnLoad();
@@ -77,7 +77,7 @@ function init() {
     container.appendChild( renderer.domElement );
 
     var material = new THREE.MeshBasicMaterial( {
-        map: THREE.ImageUtils.loadTexture( pano ),
+        map: THREE.ImageUtils.loadTexture( "/projects/"+pano+"/"+room+"/"+panosize+"/pano1.jpg" ),
         overdraw:true,
         side:THREE.BackSide
     } );
