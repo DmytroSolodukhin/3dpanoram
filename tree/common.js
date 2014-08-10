@@ -8,15 +8,18 @@ var isUserInteracting = false,
     lat = 0,
     phi = 0, theta = 0,
     tablet = false;
-webGl = null;
+    webGl = null;
 if( device.tablet() || device.mobile() ) {
     tablet = true;
 }
 
+/* здесь может быть отработка для планшетов для управление панорамой с помощью наклонов
 window.ondevicemotion = function(event){
     acx = event.accelerationIncludingGravity.x;
     acx = Math.round(acx);
 }
+*/
+
 
 init();
 animate();
@@ -64,6 +67,18 @@ function init() {
     camera.position.z = 0;
     scene = new THREE.Scene();
 
+    //создание глобальной площади - тоесть отрисовка всех доступных точек
+
+    var okno = new THREE.BoxGeometry(30,5,30), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000,opacity:0.6,
+        overdraw:true});
+
+
+    // реальный обьект
+    var oknoreal = new THREE.Mesh(okno, baselinemater);
+    oknoreal.position.y = -50;
+    oknoreal.position.x = 0;
+    oknoreal.position.z = 0;
+
     var geometry = new THREE.SphereGeometry( 100, 100, 100 );
 
     var panosize = '1';
@@ -77,7 +92,7 @@ function init() {
     container.appendChild( renderer.domElement );
 
     var material = new THREE.MeshBasicMaterial( {
-        map: THREE.ImageUtils.loadTexture( "/projects/"+pano+"/"+room+"/"+panosize+"/pano1.jpg" ),
+        map: THREE.ImageUtils.loadTexture( "/projects/"+project+"/"+point+"/"+panosize+"/pano.jpg" ),
         overdraw:true,
         side:THREE.BackSide
     } );
@@ -99,20 +114,11 @@ function init() {
 
      */
 
-    var okno = new THREE.BoxGeometry(30,5,30), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000,opacity:0.6,
-        overdraw:true});
 
-
-    // реальный обьект
-    var oknoreal = new THREE.Mesh(okno, baselinemater);
-    oknoreal.position.y = -50;
-    oknoreal.position.x = 0;
-    oknoreal.position.z = 0;
 
     //ставим на сцену обьекты
     scene.add( mesh );
 
-    scene.add( oknoreal );
 
     var domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
 

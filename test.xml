@@ -1,0 +1,18 @@
+<?xml version='1.0' standalone='yes'?>
+<points>
+    <point>
+        <namber>0</namber> <!-- номер точки - уникальный -->
+        <xcoord>34</xcoord> <!-- координаты х для точки -->
+        <ycoord>34</ycoord> <!-- координаты y для точки -->
+        <type>0</type> <!-- тип точки может принимать от 0 до 2: 0 - простая панорама, 1 - фотография, 2 - точка входа/выхода помещения -->
+        <code>1</code> <!-- ид помещения которому пренадлежит эта точка-->
+    </point>
+
+    <point>
+        <namber>1</namber>
+        <xcoord>24</xcoord>
+        <ycoord>24</ycoord>
+        <type>0</type>
+        <code>1</code>
+    </point>
+</points>

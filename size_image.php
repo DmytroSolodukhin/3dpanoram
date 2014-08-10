@@ -5,7 +5,7 @@
  * Date: 06.08.14
  * Time: 15:24
  */
-include ("picture.php");
+include("lib/picture.php");
 
 
 /*
