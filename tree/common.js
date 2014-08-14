@@ -1,5 +1,6 @@
 
-var camera, scene, renderer, pano, point_group, camera_pano_x, camera_pano_y, points_array_group  = new Array();
+var camera, scene, renderer, pano, point_group, camera_pano_x, camera_pano_y, domEvents, koef = 3;
+var points_array_group = new Array(), real_array = new Array();
 
 var isUserInteracting = false,
     lite = 0x555555,
@@ -19,6 +20,7 @@ var panosize = sizePanoView();
 
 point_round(points_array);
 init();
+viewPoints();
 animate();
 
 
@@ -37,9 +39,11 @@ animate();
  */
 function point_round(points){
     points_array_group = [];
+    var k = 0;
     for(var i = 0; i < points.length; i++){
         if(points[i]['code'] == 1){
-            points_array_group.push(points[i])
+            points_array_group[k]=points[i];
+            k++;
         }
     }
 }
@@ -87,6 +91,56 @@ function sizePanoView (){
     }
     return panosize;
 }
+
+/**
+ * отображаем точки
+ */
+function viewPoints(){
+
+    real_array = [];
+
+    for(var i = 0; i < points_array_group.length; i++){
+
+        // реальный обьект
+        real_array[i] = new THREE.Mesh(new THREE.BoxGeometry(20,2,20), new THREE.MeshBasicMaterial({color:0x990000,opacity:0.6,
+            overdraw:true}));
+
+        real_array[i].position.y = -100;
+        real_array[i].position.x = points_array_group[i]['xcoord']*koef;
+        real_array[i].position.z = points_array_group[i]['ycoord']*koef;
+
+        scene.add( real_array[i] );
+
+    }
+
+    for(var i = 0; i < real_array.length; i++){
+
+        domEvents.addEventListener(real_array[i], 'mouseover', function(event){
+
+            event.target.material.color.setHex(0xff0000);
+
+        }, true);
+
+        domEvents.addEventListener(real_array[i], 'mouseout', function(event){
+            event.target.material.color.setHex(0x990000);
+        }, true);
+
+        domEvents.addEventListener(real_array[i], 'click', function(event){
+
+            clickToNewPoint(event.target.id);
+        }, true);
+        console.debug(real_array[i]);
+    }
+}
+
+/**
+ * смена дикораций
+ * @param mewPoint
+ */
+function clickToNewPoint(newPoint){
+    alert(newPoint);
+}
+
 /**
  * инициализация панорамы
  */
@@ -97,7 +151,7 @@ function init() {
     container = document.getElementById( 'container' );
 
     camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
-    camera.target = new THREE.Vector3( 100, 100, 100 );
+    camera.target = new THREE.Vector3( 100, 40, 30 );
     camera.position.y = 15;
     camera.position.x = -15;
     camera.position.z = 0;
@@ -115,12 +169,14 @@ function init() {
     oknoreal.position.x = 0;
     oknoreal.position.z = 0;
 */
-    var geometry = new THREE.SphereGeometry( 300, 300, 300 );
+    var geometry = new THREE.SphereGeometry( 200, 100, 100 );
 
     renderer = doOnLoad();
     renderer.setSize( window.innerWidth, window.innerHeight );
 
     container.appendChild( renderer.domElement );
+
+    domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
 
     var material = new THREE.MeshBasicMaterial( {
         map: THREE.ImageUtils.loadTexture( "/projects/"+project+"/"+point+"/"+panosize+"/pano.jpg" ),
@@ -130,45 +186,9 @@ function init() {
 
     mesh = new THREE.Mesh( geometry, material );
 
-
-
-    var s1 = new THREE.Geometry(),
-        s2 = new THREE.Geometry();
-
-    s1.vertices.push(new THREE.Vector3( 4, -10, -5 ), new THREE.Vector3( 15, -10, 0 ), new THREE.Vector3( 4, -10, 5 ));
-    s2.vertices.push(new THREE.Vector3( -4, -10, 5 ), new THREE.Vector3( -15, -10, 0 ), new THREE.Vector3( -4, -10, -5 ));
-
-    var snext = new THREE.Line(s1, new THREE.LineBasicMaterial({color:lite,linewidth:16})),
-    sprev = new THREE.Line(s2, new THREE.LineBasicMaterial({color:lite,linewidth:16}));
-    scene.add( snext);
-    scene.add( sprev );
-    /*
-     конец стрелкам
-     */
-
-
-
     //ставим на сцену обьекты
     scene.add( mesh );
 
-
-    var domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
-
-  /*  domEvents.addEventListener(mesh2, 'click', function(event){
-
-    }, false);*/
-
-    domEvents.addEventListener(snext, 'click', function(event){
-        alert('next pano');
-    }, false);
-
-    domEvents.addEventListener(snext, 'mouseover', function(event){
-        snext.material.color.setHex(0xff0000);
-    }, false);
-
-    domEvents.addEventListener(snext, 'mouseout', function(event){
-        snext.material.color.setHex(lite);
-    }, false);
 
 
     //установка событий для прокрутки панорамы
@@ -211,9 +231,7 @@ function init() {
     }, false );
 
     window.addEventListener( 'resize', onWindowResize, true );
-
 }
-
 
 /**
  * изменение параметров окна
@@ -224,7 +242,6 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
 
     renderer.setSize( window.innerWidth, window.innerHeight );
-
 
 }
 
