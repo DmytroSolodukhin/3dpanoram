@@ -1,5 +1,5 @@
 
-var camera, scene, renderer;
+var camera, scene, renderer, pano, point_group, camera_pano_x, camera_pano_y, points_array_group  = new Array();
 
 var isUserInteracting = false,
     lite = 0x555555,
@@ -9,20 +9,40 @@ var isUserInteracting = false,
     phi = 0, theta = 0,
     tablet = false;
     webGl = null;
+
+
 if( device.tablet() || device.mobile() ) {
     tablet = true;
 }
 
-/* здесь может быть отработка для планшетов для управление панорамой с помощью наклонов
-window.ondevicemotion = function(event){
-    acx = event.accelerationIncludingGravity.x;
-    acx = Math.round(acx);
-}
-*/
+var panosize = sizePanoView();
 
-
+point_round(points_array);
 init();
 animate();
+
+
+
+/* здесь может быть отработка для планшетов для управление панорамой с помощью наклонов
+ window.ondevicemotion = function(event){
+ acx = event.accelerationIncludingGravity.x;
+ acx = Math.round(acx);
+ }
+ */
+
+
+/**
+ * обновляем список видимых точек
+ * @param points
+ */
+function point_round(points){
+    points_array_group = [];
+    for(var i = 0; i < points.length; i++){
+        if(points[i]['code'] == 1){
+            points_array_group.push(points[i])
+        }
+    }
+}
 
 /**
  * проверка на возможность подключение WEBGL,
@@ -52,6 +72,22 @@ function doOnLoad(){
 }
 
 /**
+ * определяем какую панораму нам выводить
+ * @returns {string}
+ */
+function sizePanoView (){
+    var panosize = 'x';
+
+    if(window.innerWidth < 1400){
+        panosize='m';
+    }
+
+    if(tablet){
+        panosize='l';
+    }
+    return panosize;
+}
+/**
  * инициализация панорамы
  */
 function init() {
@@ -68,7 +104,7 @@ function init() {
     scene = new THREE.Scene();
 
     //создание глобальной площади - тоесть отрисовка всех доступных точек
-
+/*
     var okno = new THREE.BoxGeometry(30,5,30), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000,opacity:0.6,
         overdraw:true});
 
@@ -78,13 +114,8 @@ function init() {
     oknoreal.position.y = -50;
     oknoreal.position.x = 0;
     oknoreal.position.z = 0;
-
-    var geometry = new THREE.SphereGeometry( 100, 100, 100 );
-
-    var panosize = '1';
-    if(tablet){
-        panosize='3';
-    }
+*/
+    var geometry = new THREE.SphereGeometry( 300, 300, 300 );
 
     renderer = doOnLoad();
     renderer.setSize( window.innerWidth, window.innerHeight );
@@ -99,6 +130,8 @@ function init() {
 
     mesh = new THREE.Mesh( geometry, material );
 
+
+
     var s1 = new THREE.Geometry(),
         s2 = new THREE.Geometry();
 
@@ -111,7 +144,6 @@ function init() {
     scene.add( sprev );
     /*
      конец стрелкам
-
      */
 
 
@@ -214,7 +246,6 @@ function onDocumentMouseDown( event ) {
 
 }
 
-
 /**
  * прокрутка панорамы за мышью
  * @param event
@@ -235,7 +266,6 @@ function onDocumentMouseMove( event ) {
         }
 
     }
-
 }
 
 /**

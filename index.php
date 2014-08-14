@@ -9,9 +9,14 @@
 include ("config.php");
 include("lib/XMLread.php");
 
-//вычисляем какой нам необходимо подгружать проэкт и какую точку
-$poject = $_GET['project'];
+$poject = 'panotest';
 $point  = 0;
+
+//вычисляем какой нам необходимо подгружать проэкт и какую точку
+if(array_key_exists('panotest',$_GET)){
+    $poject = $_GET['project'];
+}
+
 //проверим, необходимость перейти на какаую-либо конкретную точку в проэкте
 if(array_key_exists('point',$_GET)){
     $point  = $_GET['point'];
@@ -53,7 +58,7 @@ $points = json_encode($dbxml);
     <link  href="style.css" type="text/css" rel="stylesheet">
     <script type="text/javascript">
         //здесь будет определятся проэкт панорамы и комната
-        var project = "<?php echo($poject); ?>", point="<?php echo($point); ?>";
+        var project = "<?php echo($poject); ?>", point="<?php echo($point); ?>", points_array=<?php echo($points); ?>;
 
     </script>
 </head>
@@ -61,8 +66,11 @@ $points = json_encode($dbxml);
 
 <div id="container">
     <canvas id="mycanvas"></canvas>
+<script type="text/javascript">
 
+</script>
 </div>
+<!--
 <div id="look_image">
     <div id="opacity">
 
@@ -85,7 +93,7 @@ $points = json_encode($dbxml);
         ?>
     </div>
 </div>
-
+-->
 
 <!-- стрелки
 <div id="menu_next">
@@ -108,6 +116,7 @@ $points = json_encode($dbxml);
 <script src="tree/build/three.js"></script>
 <script src="tree/dom.js"></script>
 <script src="tree/dev.js"></script>
+
 <script src="tree/common.js"></script>
 
 </body>

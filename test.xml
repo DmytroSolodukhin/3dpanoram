@@ -15,4 +15,11 @@
         <type>0</type>
         <code>1</code>
     </point>
+    <point>
+        <namber>2</namber>
+        <xcoord>34</xcoord>
+        <ycoord>24</ycoord>
+        <type>0</type>
+        <code>2</code>
+    </point>
 </points>
