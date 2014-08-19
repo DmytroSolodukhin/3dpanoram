@@ -17,36 +17,29 @@
     </point>
 
     <point>
-        <namber>21</namber>
+        <namber>1</namber>
         <xcoord>54</xcoord>
         <ycoord>54</ycoord>
         <type>0</type>
         <code>1</code>
     </point>
     <point>
-        <namber>22</namber>
-        <xcoord>54</xcoord>
-        <ycoord>34</ycoord>
-        <type>0</type>
-        <code>1</code>
-    </point>
-    <point>
-        <namber>23</namber>
+        <namber>3</namber>
         <xcoord>75</xcoord>
         <ycoord>-18</ycoord>
-        <type>0</type>
+        <type>2</type>
         <code>1</code>
     </point>
     <point>
-        <namber>24</namber>
+        <namber>4</namber>
         <xcoord>-24</xcoord>
         <ycoord>-54</ycoord>
-        <type>0</type>
+        <type>1</type>
         <code>1</code>
     </point>
 
     <point>
-        <namber>2</namber>
+        <namber>9</namber>
         <xcoord>34</xcoord>
         <ycoord>24</ycoord>
         <type>0</type>

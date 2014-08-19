@@ -56,7 +56,7 @@ function point_round(points){
             if(l>line){
                 line = l;
             }
-alert(l);
+
         }
     }
     share_plus = Math.sqrt(line);
@@ -117,18 +117,30 @@ function viewPoints(){
     real_array = [];
 
     for(var i = 0; i < points_array_group.length; i++){
-
+    var type = 0;
         // реальный обьект
-        real_array[i] = new THREE.Mesh(new THREE.BoxGeometry(20,2,20), new THREE.MeshBasicMaterial({color:0x990000,opacity:0.6,
-            overdraw:true}));
 
-        real_array[i].position.y = -100;
+        if(points_array_group[i]['type'] == 1){
+            real_array[i] = new THREE.Mesh(new THREE.BoxGeometry(20,2,20), new THREE.MeshBasicMaterial({color:0x999900,opacity:0.6,
+                overdraw:true}));
+            type = 1;
+        }else if(points_array_group[i]['type'] == 2){
+            real_array[i] = new THREE.Mesh(new THREE.BoxGeometry(20,2,20), new THREE.MeshBasicMaterial({color:0x990000,opacity:0.6,
+                overdraw:true}));
+            type = 2;
+        }else{
+            real_array[i] = new THREE.Mesh(new THREE.BoxGeometry(20,2,20), new THREE.MeshBasicMaterial({color:0x009900,opacity:0.6,
+                overdraw:true}));
+        }
+
+
+            real_array[i].position.y = -100;
         real_array[i].position.x = points_array_group[i]['xcoord']*koef;
         real_array[i].position.z = points_array_group[i]['ycoord']*koef;
 
         scene.add( real_array[i] );
-        real_array[i]['namber'] = points_array_group[i]['namber'];
-
+        real_array[i]['namber']    = points_array_group[i]['namber'];
+        real_array[i]['code_type'] = type;
     }
 
 
@@ -136,12 +148,27 @@ function viewPoints(){
 
         domEvents.addEventListener(real_array[i], 'mouseover', function(event){
 
-            event.target.material.color.setHex(0xff0000);
+            if(event.target.code_type == 0){
+                event.target.material.color.setHex(0x00ff00);
+            }else if(event.target.code_type == 1){
+                event.target.material.color.setHex(0xffff00);
+            }else if(event.target.code_type == 2){
+                event.target.material.color.setHex(0xff0000);
+            }
+
 
         }, true);
 
         domEvents.addEventListener(real_array[i], 'mouseout', function(event){
-            event.target.material.color.setHex(0x990000);
+
+            if(event.target.code_type == 0){
+                event.target.material.color.setHex(0x009900);
+            }else if(event.target.code_type == 1){
+                event.target.material.color.setHex(0x999900);
+            }else if(event.target.code_type == 2){
+                event.target.material.color.setHex(0x990000);
+            }
+
         }, true);
 
         domEvents.addEventListener(real_array[i], 'click', function(event){
