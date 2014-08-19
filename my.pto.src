@@ -1,0 +1,92 @@
+# hugin project file
+#hugin_ptoversion 2
+p f2 w11618 h5809 v360  E9.40146 R0 n"TIFF_m c:LZW r:CROP"
+m g1 i0 f0 m2 p0.00784314
+
+# image lines
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v92.9622919059439 Ra0 Rb0 Rc0 Rd0 Re0 Eev9.40145660741198 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  Vm5 n"GOPR0001.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0002.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0003.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.77772681721223 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0004.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.7444067440122 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0005.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.34926880217106 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0006.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.48577080207592 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0007.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.33928471359844 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0008.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.25423144052476 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0009.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.68630378944863 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0010.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.31094431450654 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0011.JPG"
+#-hugin  cropFactor=1
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.1195182438533 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0012.JPG"
+
+
+# specify variables that should be optimized
+v r1
+v p1
+v y1
+v r2
+v p2
+v y2
+v r3
+v p3
+v y3
+v r4
+v p4
+v y4
+v r5
+v p5
+v y5
+v r6
+v p6
+v y6
+v r7
+v p7
+v y7
+v r8
+v p8
+v y8
+v r9
+v p9
+v y9
+v r10
+v p10
+v y10
+v r11
+v p11
+v y11
+v
+
+
+# control points
+
+#hugin_optimizeReferenceImage 0
+#hugin_blender enblend
+#hugin_remapper nona
+#hugin_enblendOptions 
+#hugin_enfuseOptions 
+#hugin_hdrmergeOptions -m avg -c
+#hugin_outputLDRBlended true
+#hugin_outputLDRLayers false
+#hugin_outputLDRExposureRemapped false
+#hugin_outputLDRExposureLayers false
+#hugin_outputLDRExposureBlended false
+#hugin_outputLDRExposureLayersFused false
+#hugin_outputHDRBlended false
+#hugin_outputHDRLayers false
+#hugin_outputHDRStacks false
+#hugin_outputLayersCompression LZW
+#hugin_outputImageType jpg
+#hugin_outputImageTypeCompression LZW
+#hugin_outputJPEGQuality 90
+#hugin_outputImageTypeHDR exr
+#hugin_outputImageTypeHDRCompression LZW
