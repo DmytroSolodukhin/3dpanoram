@@ -175,7 +175,6 @@ function viewPoints(){
 
             clickToNewPoint(event.target.namber);
         }, true);
-        console.debug(real_array[i]);
     }
 }
 
@@ -222,7 +221,7 @@ function init() {
     oknoreal.position.x = 0;
     oknoreal.position.z = 0;
 */
-    var geometry = new THREE.SphereGeometry( (share_plus*koef) + 100, 60, 40 );
+    var geometry = new THREE.SphereGeometry( (share_plus*koef) + 100, 100, 100 );
 
     renderer = doOnLoad();
     renderer.setSize( window.innerWidth, window.innerHeight );
