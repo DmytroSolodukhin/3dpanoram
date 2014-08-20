@@ -391,7 +391,10 @@ function animate() {
  */
 function update() {
 
-    controls.update(0.1);
+    if(((point_array['ycoord']*koef)*(point_array['ycoord']*koef))-(camera.position.x*camera.position.x)){
+        controls.update(0.1);
+    }
+
 
 
     lat = Math.max( - 85, Math.min( 85, lat ) );
@@ -423,7 +426,7 @@ $("#look").html(camera.position.x +"</br>"+ (Number(point_array['xcoord']) + (3*
 
 function perehvat(){
     for(var i = 0; i < points_array_group.length; i++){
-        if(points_array_group[i]['type'] == 0){
+        if(points_array_group[i]['type'] == 0 || points_array_group[i]['type'] == 2){
             if(points_array_group[i]['namber'] != point){
 
                 if(camera.position.x > (Number(point_array['xcoord']*koef) + (3*koef))
@@ -431,18 +434,15 @@ function perehvat(){
                     || camera.position.z > (Number(point_array['ycoord']*koef) + (3*koef))
                     || camera.position.z < (Number(point_array['ycoord']*koef)-(3*koef))){
 
-                    if(camera.position.x < (Number(points_array_group[i]['xcoord']*koef) + (10*koef))
-                        && camera.position.x > (Number(points_array_group[i]['xcoord']*koef)-(10*koef))
-                        && camera.position.z < (Number(points_array_group[i]['ycoord']*koef) + (10*koef))
-                        && camera.position.z > (Number(points_array_group[i]['ycoord']*koef)-(10*koef))){
+                        if(camera.position.x < (Number(points_array_group[i]['xcoord']*koef) + (10*koef))
+                            && camera.position.x > (Number(points_array_group[i]['xcoord']*koef)-(10*koef))
+                            && camera.position.z < (Number(points_array_group[i]['ycoord']*koef) + (10*koef))
+                            && camera.position.z > (Number(points_array_group[i]['ycoord']*koef)-(10*koef))){
 
-                        clickToNewPoint(points_array_group[i]['namber']);
-                    }
+                            clickToNewPoint(points_array_group[i]['namber']);
+                        }
                 }
-
-
             }
-
         }
     }
 }
@@ -450,29 +450,37 @@ function perehvat(){
 // ограничение на приближение и удаление камеры
 function stopcamera(){
 
+    //приближение
     if(camera.fov > 80){
         camera.fov = 80;
     };
     if(camera.fov < 10){
         camera.fov = 10;
     };
-    if(camera.position.x > ((point_array['xcoord']*koef) + ((share_plus*koef)/2))){
-        camera.position.x = (point_array['xcoord']*koef) + ((share_plus*koef)/2);
+
+    //движение по окружности
+/*
+
+
+    if(camera.position.x > ((point_array['xcoord']*koef) + ((share_plus*koef)-60))){
+        camera.position.x = (point_array['xcoord']*koef) + ((share_plus*koef)-60);
     }
-    if(camera.position.x < ((point_array['xcoord']*koef) - ((share_plus*koef)/2))){
-        camera.position.x = (point_array['xcoord']*koef) - ((share_plus*koef)/2);
+    if(camera.position.x < ((point_array['xcoord']*koef) - ((share_plus*koef)-60))){
+        camera.position.x = (point_array['xcoord']*koef) - ((share_plus*koef)-60);
     }
-    if(camera.position.z > ((point_array['ycoord']*koef) + ((share_plus*koef)/2))){
-        camera.position.z = (point_array['ycoord']*koef) + ((share_plus*koef)/2);
+    if(camera.position.z > ((point_array['ycoord']*koef) + ((share_plus*koef)-60))){
+        camera.position.z = (point_array['ycoord']*koef) + ((share_plus*koef)-60);
     }
-    if(camera.position.z < ((point_array['ycoord']*koef) - ((share_plus*koef)/2))){
-        camera.position.z = (point_array['ycoord']*koef) - ((share_plus*koef)/2);
+    if(camera.position.z < ((point_array['ycoord']*koef) - ((share_plus*koef)-60))){
+        camera.position.z = (point_array['ycoord']*koef) - ((share_plus*koef)-60);
     }
-    if(camera.position.y > ((share_plus*koef)/2)){
-        camera.position.y = (share_plus*koef)/2;
+    */
+    if(camera.position.y > ((share_plus*koef)-120)){
+        camera.position.y = (share_plus*koef)-120;
     }
-    if(camera.position.y < -(share_plus*koef)/2){
-        camera.position.y = -(share_plus*koef)/2;
+    if(camera.position.y < -(share_plus*koef)-120){
+        camera.position.y = -(share_plus*koef)-120;
     }
+
 }
 
