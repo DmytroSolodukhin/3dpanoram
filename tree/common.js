@@ -208,8 +208,8 @@ function init() {
     camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
     camera.target = new THREE.Vector3( 100, 40, 30 );
     camera.position.y = 15;
-   camera.position.x = point_array['xcoord']*koef;
-   camera.position.z = point_array['ycoord']*koef;
+    camera.position.x = point_array['xcoord']*koef;
+    camera.position.z = point_array['ycoord']*koef;
 
     controls = new THREE.FlyControls(camera);
     	controls.movementSpeed = 100;
@@ -391,11 +391,7 @@ function animate() {
  */
 function update() {
 
-    if(((point_array['ycoord']*koef)*(point_array['ycoord']*koef))-(camera.position.x*camera.position.x)){
-        controls.update(0.1);
-    }
-
-
+    controls.update(0.1);
 
     lat = Math.max( - 85, Math.min( 85, lat ) );
     phi = THREE.Math.degToRad( 90 - lat );
@@ -416,14 +412,14 @@ function update() {
     perehvat();
 
 $("#look").html(camera.position.x +"</br>"+ (Number(point_array['xcoord']) + (3*koef)));
-    /*
-     // distortion
-     camera.position.copy( camera.target ).negate();
-     */
+
     renderer.render( scene, camera );
 
 }
 
+/**
+ * функция перехвата панорамы
+ */
 function perehvat(){
     for(var i = 0; i < points_array_group.length; i++){
         if(points_array_group[i]['type'] == 0 || points_array_group[i]['type'] == 2){
@@ -458,9 +454,7 @@ function stopcamera(){
         camera.fov = 10;
     };
 
-    //движение по окружности
-/*
-
+    //движение по сфере
 
     if(camera.position.x > ((point_array['xcoord']*koef) + ((share_plus*koef)-60))){
         camera.position.x = (point_array['xcoord']*koef) + ((share_plus*koef)-60);
@@ -474,12 +468,12 @@ function stopcamera(){
     if(camera.position.z < ((point_array['ycoord']*koef) - ((share_plus*koef)-60))){
         camera.position.z = (point_array['ycoord']*koef) - ((share_plus*koef)-60);
     }
-    */
-    if(camera.position.y > ((share_plus*koef)-120)){
-        camera.position.y = (share_plus*koef)-120;
+
+    if(camera.position.y > ((share_plus*koef)-40)){
+        camera.position.y = (share_plus*koef)-40;
     }
-    if(camera.position.y < -(share_plus*koef)-120){
-        camera.position.y = -(share_plus*koef)-120;
+    if(camera.position.y < -(share_plus*koef)-40){
+        camera.position.y = -(share_plus*koef)-40;
     }
 
 }
