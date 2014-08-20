@@ -63,7 +63,7 @@ $points = json_encode($dbxml);
     </script>
 </head>
 <body>
-
+<div id="look">hello</div>
 <div id="container">
     <canvas id="mycanvas"></canvas>
 <script type="text/javascript">
@@ -112,12 +112,14 @@ $points = json_encode($dbxml);
 
 </div>
 -->
-
+<script src="tree/jquery-1.11.1.min.js"></script>
 <script src="tree/build/three.js"></script>
+<script src="tree/examples/js/controls/FlyControls.js"></script>
 <script src="tree/dom.js"></script>
 <script src="tree/dev.js"></script>
 
 <script src="tree/common.js"></script>
+
 
 </body>
 </html>

@@ -3,6 +3,17 @@ body {
     overflow: hidden;
 }
 
+#look {
+    position: fixed;
+    width: 600px;
+    height: 250px;
+    background-color: #666666;
+    opacity: 0.3;
+    z-index: 999;
+    font-size: 70pt;
+    color: #000000;
+}
+
 #look_image {
     float: left;
     position: fixed;

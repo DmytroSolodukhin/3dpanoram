@@ -1,5 +1,5 @@
 
-var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array;
+var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array, controls;
 var points_array_group = new Array(), real_array = new Array();
 
 var isUserInteracting = false,
@@ -134,7 +134,7 @@ function viewPoints(){
         }
 
 
-            real_array[i].position.y = -100;
+            real_array[i].position.y = -((share_plus*koef)/2)-100;
         real_array[i].position.x = points_array_group[i]['xcoord']*koef;
         real_array[i].position.z = points_array_group[i]['ycoord']*koef;
 
@@ -204,8 +204,18 @@ function init() {
     camera = new THREE.PerspectiveCamera( 55, window.innerWidth / window.innerHeight, 1, 1100 );
     camera.target = new THREE.Vector3( 100, 40, 30 );
     camera.position.y = 15;
-    camera.position.x = (point_array['xcoord']*koef)-15;
-    camera.position.z = point_array['ycoord']*koef;
+   camera.position.x = point_array['xcoord']*koef;
+   camera.position.z = point_array['ycoord']*koef;
+
+    controls = new THREE.FlyControls(camera);
+    	controls.movementSpeed = 100;
+        controls.domElement = container;
+        controls.rollSpeed = 0;
+        controls.autoForward = false;
+        controls.dragToLook = false;
+   // controls.lookSpeed = 1.6;
+
+
     scene = new THREE.Scene();
 
 
@@ -392,6 +402,9 @@ function animate() {
  */
 function update() {
 
+    controls.update(0.1);
+
+
     lat = Math.max( - 85, Math.min( 85, lat ) );
     phi = THREE.Math.degToRad( 90 - lat );
     theta = THREE.Math.degToRad( lon );
@@ -402,8 +415,8 @@ function update() {
     camera.target.y = 500 * Math.cos( phi );
     camera.target.z = ((point_array['ycoord']*koef)+500) * Math.sin( phi ) * Math.sin( theta );
 
-    camera.position.x = point_array['xcoord']*koef;
-    camera.position.z = point_array['ycoord']*koef;
+    //camera.position.x = point_array['xcoord']*koef;
+    //camera.position.z = point_array['ycoord']*koef;
 
     camera.lookAt( camera.target );
 
@@ -414,7 +427,26 @@ function update() {
     if(camera.fov < 10){
         camera.fov = 10;
     };
+    if(camera.position.x > ((point_array['xcoord']*koef) + ((share_plus*koef)/2))){
+        camera.position.x = (point_array['xcoord']*koef) + ((share_plus*koef)/2);
+    }
+    if(camera.position.x < ((point_array['xcoord']*koef) - ((share_plus*koef)/2))){
+        camera.position.x = (point_array['xcoord']*koef) - ((share_plus*koef)/2);
+    }
+    if(camera.position.z > ((point_array['ycoord']*koef) + ((share_plus*koef)/2))){
+        camera.position.z = (point_array['ycoord']*koef) + ((share_plus*koef)/2);
+    }
+    if(camera.position.z < ((point_array['ycoord']*koef) - ((share_plus*koef)/2))){
+        camera.position.z = (point_array['ycoord']*koef) - ((share_plus*koef)/2);
+    }
+    if(camera.position.y > ((share_plus*koef)/2)){
+        camera.position.y = (share_plus*koef)/2;
+    }
+    if(camera.position.y < -(share_plus*koef)/2){
+        camera.position.y = -(share_plus*koef)/2;
+    }
 
+$("#look").html(camera.position.y+"</br>"+(share_plus*koef) + 100);
     /*
      // distortion
      camera.position.copy( camera.target ).negate();
