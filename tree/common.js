@@ -241,6 +241,7 @@ function init() {
     domEvents   = new THREEx.DomEvents(camera, renderer.domElement);
 
     var material = new THREE.MeshBasicMaterial( {
+        //map: "/projects/"+project+"/1/pano.jpg",
         map: THREE.ImageUtils.loadTexture( "/projects/"+project+"/"+point+"/"+panosize+"/pano.jpg" ),
         overdraw:true,
         side:THREE.BackSide
