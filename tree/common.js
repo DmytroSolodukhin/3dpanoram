@@ -1,5 +1,5 @@
 
-var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array, controls;
+var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array, controls, point;
 var points_array_group = new Array(), real_array = new Array();
 
 var isUserInteracting = false,
@@ -39,7 +39,7 @@ animate();
 function point_round(points){
     points_array_group = [];
     point_array = [];
-    var k = 0, line = 0;
+    var k = 0, line = 0, stec;
 
     for(var i = 0; i < points.length; i++){
         if(points[i]['namber'] == point){
@@ -141,6 +141,8 @@ function viewPoints(){
         scene.add( real_array[i] );
         real_array[i]['namber']    = points_array_group[i]['namber'];
         real_array[i]['code_type'] = type;
+
+
     }
 
 
@@ -173,8 +175,10 @@ function viewPoints(){
 
         domEvents.addEventListener(real_array[i], 'click', function(event){
 
-            clickToNewPoint(event.target.namber);
+
+            clickToNewPoint(event.target['namber']);
         }, true);
+
     }
 }
 
@@ -185,7 +189,7 @@ function viewPoints(){
 function clickToNewPoint(newPoint){
 
     point = newPoint;
-
+    console.debug(point);
     point_round(points_array);
     init();
     viewPoints();
@@ -218,20 +222,7 @@ function init() {
 
     scene = new THREE.Scene();
 
-
-    //создание глобальной площади - тоесть отрисовка всех доступных точек
-/*
-    var okno = new THREE.BoxGeometry(30,5,30), baselinemater = new THREE.MeshBasicMaterial({color:0xff0000,opacity:0.6,
-        overdraw:true});
-
-
-    // реальный обьект
-    var oknoreal = new THREE.Mesh(okno, baselinemater);
-    oknoreal.position.y = -50;
-    oknoreal.position.x = 0;
-    oknoreal.position.z = 0;
-*/
-    var geometry = new THREE.SphereGeometry( (share_plus*koef) + 100, 100, 100 );
+    var geometry = new THREE.SphereGeometry( (share_plus*koef) + 150, 100, 100 );
 
     renderer = doOnLoad();
     renderer.setSize( window.innerWidth, window.innerHeight );
@@ -253,9 +244,6 @@ function init() {
     mesh.position.z = point_array['ycoord']*koef;
     //ставим на сцену обьекты
     scene.add( mesh );
-
-
-
 
     //установка событий для прокрутки панорамы
     document.addEventListener( 'mousedown', onDocumentMouseDown, false );
@@ -421,7 +409,47 @@ function update() {
 
     camera.lookAt( camera.target );
 
-    // ограничение на приближение и удаление камеры
+    stopcamera();
+    perehvat();
+
+$("#look").html(camera.position.x +"</br>"+ (Number(point_array['xcoord']) + (3*koef)));
+    /*
+     // distortion
+     camera.position.copy( camera.target ).negate();
+     */
+    renderer.render( scene, camera );
+
+}
+
+function perehvat(){
+    for(var i = 0; i < points_array_group.length; i++){
+        if(points_array_group[i]['type'] == 0){
+            if(points_array_group[i]['namber'] != point){
+
+                if(camera.position.x > (Number(point_array['xcoord']*koef) + (3*koef))
+                    || camera.position.x < (Number(point_array['xcoord']*koef)-(3*koef))
+                    || camera.position.z > (Number(point_array['ycoord']*koef) + (3*koef))
+                    || camera.position.z < (Number(point_array['ycoord']*koef)-(3*koef))){
+
+                    if(camera.position.x < (Number(points_array_group[i]['xcoord']*koef) + (10*koef))
+                        && camera.position.x > (Number(points_array_group[i]['xcoord']*koef)-(10*koef))
+                        && camera.position.z < (Number(points_array_group[i]['ycoord']*koef) + (10*koef))
+                        && camera.position.z > (Number(points_array_group[i]['ycoord']*koef)-(10*koef))){
+
+                        clickToNewPoint(points_array_group[i]['namber']);
+                    }
+                }
+
+
+            }
+
+        }
+    }
+}
+
+// ограничение на приближение и удаление камеры
+function stopcamera(){
+
     if(camera.fov > 80){
         camera.fov = 80;
     };
@@ -446,14 +474,5 @@ function update() {
     if(camera.position.y < -(share_plus*koef)/2){
         camera.position.y = -(share_plus*koef)/2;
     }
-
-$("#look").html(camera.position.y+"</br>"+(share_plus*koef) + 100);
-    /*
-     // distortion
-     camera.position.copy( camera.target ).negate();
-     */
-    renderer.render( scene, camera );
-
 }
-
 
