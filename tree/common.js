@@ -39,7 +39,7 @@ animate();
 function point_round(points){
     points_array_group = [];
     point_array = [];
-    var k = 0, line = 0, stec;
+    var k = 0, line = 0;
 
     for(var i = 0; i < points.length; i++){
         if(points[i]['namber'] == point){

@@ -23,28 +23,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google/common.js">
+      <file leaf-file-name="create_panorams.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1380">
+            <state line="66" column="32" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.23972602" vertical-offset="740" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tree/common.js">
+      <file leaf-file-name="my.pto.src" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.src">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="43" selection-start="6073" selection-end="6128" vertical-scroll-proportion="0.8642766" vertical-offset="2835" max-vertical-offset="6495">
+            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="three.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/build/three.js">
+      <file leaf-file-name="my.pto.mk" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="417795" max-vertical-offset="577455">
+            <state line="405" column="10" selection-start="13852" selection-end="13852" vertical-scroll-proportion="-8.851851" vertical-offset="5836" max-vertical-offset="8580">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.mk" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/test.mk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="479" column="46" selection-start="16521" selection-end="16530" vertical-scroll-proportion="-247.18518" vertical-offset="511" max-vertical-offset="8580">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="counter.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.src" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/test.src">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.bash" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/create.bash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.bash" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/create.bash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -67,6 +121,19 @@
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/tree/build/three.js" />
         <option value="$PROJECT_DIR$/tree/common.js" />
+        <option value="$PROJECT_DIR$/shivka/spisok" />
+        <option value="$PROJECT_DIR$/shivka/create.bash" />
+        <option value="$PROJECT_DIR$/shivka/projects/firstproj/7/counter.txt" />
+        <option value="$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt" />
+        <option value="$PROJECT_DIR$/shivka/projects/firstproj/17/my.pto.mk" />
+        <option value="$PROJECT_DIR$/shivka/config_hugin.php" />
+        <option value="$PROJECT_DIR$/shivka/test.mk" />
+        <option value="$PROJECT_DIR$/shivka/test.src" />
+        <option value="$PROJECT_DIR$/shivka/my.pto.src" />
+        <option value="$PROJECT_DIR$/shivka/my.pto.mk" />
+        <option value="$PROJECT_DIR$/shivka/1.php" />
+        <option value="$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk" />
+        <option value="$PROJECT_DIR$/shivka/create_panorams.php" />
       </list>
     </option>
   </component>
@@ -103,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,15 +199,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="shivka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dpanoram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shivka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="panotest" />
+              <option name="myItemId" value="firstproj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dpanoram" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="20" />
+              <option name="myItemId" value="shivka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="firstproj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dpanoram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -157,49 +279,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="panotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3dpanoram" />
+              <option name="myItemId" value="firstproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="panotest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3dpanoram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
+              <option name="myItemId" value="firstroom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,11 +297,29 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shivka/projects/firstproj/7" />
+      <recent name="$PROJECT_DIR$/shivka/projects/firstproj" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shivka" />
       <recent name="$PROJECT_DIR$/google" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -229,12 +336,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.285342" sideWeight="0.6706587" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2267101" sideWeight="0.6706587" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -266,86 +373,316 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/google/common.js">
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.src">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
+        <state line="9" column="172" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="10" selection-start="0" selection-end="24246" vertical-scroll-proportion="0.0" vertical-offset="3450" max-vertical-offset="8505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1761" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="12" selection-start="1021" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="14" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="172" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="10" selection-start="0" selection-end="24246" vertical-scroll-proportion="0.0" vertical-offset="3150" max-vertical-offset="8505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1761" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="119" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="172" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="10" selection-start="0" selection-end="24246" vertical-scroll-proportion="0.0" vertical-offset="3150" max-vertical-offset="8505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="23" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="690" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="6480">
-          <folding />
-        </state>
+        <state line="41" column="23" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="7290" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/build/three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="417795" max-vertical-offset="577455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/google/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="417795" max-vertical-offset="577455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="234" column="43" selection-start="6073" selection-end="6128" vertical-scroll-proportion="0.0" vertical-offset="3510" max-vertical-offset="6495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/build/three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20994" column="53" selection-start="440289" selection-end="440289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="417795" max-vertical-offset="577455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google/common.js">
+    <entry file="file://$PROJECT_DIR$/tree/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="27" column="41" selection-start="690" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="6480" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google/common.js">
+    <entry file="file://$PROJECT_DIR$/tree/build/three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="417795" max-vertical-offset="577455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google/common.js">
+    <entry file="file://$PROJECT_DIR$/tree/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="28" column="49" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/build/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20994" column="53" selection-start="440289" selection-end="440289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/build/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4172" column="27" selection-start="177141" selection-end="177162" vertical-scroll-proportion="0.33265308" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="4172" column="27" selection-start="177141" selection-end="177162" vertical-scroll-proportion="0.33265308" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/build/three.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="43" selection-start="6073" selection-end="6128" vertical-scroll-proportion="0.8642766" vertical-offset="2835" max-vertical-offset="6495">
+        <state line="79" column="18" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="7290" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/spisok">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/6/[Group 1]-GOPR0061_GOPR0072-12 images.pano">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="98.65385" vertical-offset="2565" max-vertical-offset="49950" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="10" selection-start="0" selection-end="24246" vertical-scroll-proportion="0.0" vertical-offset="3150" max-vertical-offset="8505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="1305" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/test.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="170" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/create.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/test.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="479" column="46" selection-start="16521" selection-end="16530" vertical-scroll-proportion="-247.18518" vertical-offset="511" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="45" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="405" column="10" selection-start="13852" selection-end="13852" vertical-scroll-proportion="-8.851851" vertical-offset="5836" max-vertical-offset="8580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.src">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="32" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.23972602" vertical-offset="740" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>

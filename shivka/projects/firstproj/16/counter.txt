@@ -1,0 +1,71 @@
+
+
+# makefile for panorama stitching, created by hugin using the new makefilelib
+
+# Tool configuration
+NONA=nona
+PTSTITCHER=PTStitcher
+PTMENDER=PTmender
+PTBLENDER=PTblender
+PTMASKER=PTmasker
+PTROLLER=PTroller
+ENBLEND=enblend
+ENFUSE=enfuse
+SMARTBLEND=smartblend.exe
+HDRMERGE=hugin_hdrmerge
+RM=rm
+EXIFTOOL=exiftool
+
+# Project parameters
+HUGIN_PROJECTION=2
+HUGIN_HFOV=360
+HUGIN_WIDTH=11618
+HUGIN_HEIGHT=5809
+
+# options for the programs
+NONA_LDR_REMAPPED_COMP=-z LZW
+NONA_OPTS=
+ENBLEND_OPTS= -w -f11618x5809
+ENBLEND_LDR_COMP=--compression=90
+ENBLEND_EXPOSURE_COMP=--compression=LZW
+ENBLEND_HDR_COMP=
+HDRMERGE_OPTS=-m avg -c
+ENFUSE_OPTS= -w
+EXIFTOOL_COPY_ARGS=-ImageDescription -Make -Model -Artist -WhitePoint -Copyright -GPS:all -DateTimeOriginal -CreateDate -UserComment -ColorSpace -OwnerName -SerialNumber
+EXIFTOOL_INFO_ARGS='-Software=Hugin 2011.4.0.cf9be9344356' '-UserComment<$${UserComment}&\#xa;Projection: Equirectangular (2)&\#xa;FOV: 360 x 180&\#xa;Ev: 9.40' -f
+
+# the output panorama
+LDR_REMAPPED_PREFIX=my
+LDR_REMAPPED_PREFIX_SHELL=my
+HDR_STACK_REMAPPED_PREFIX=my_hdr_
+HDR_STACK_REMAPPED_PREFIX_SHELL=my_hdr_
+LDR_EXPOSURE_REMAPPED_PREFIX=my_exposure_layers_
+LDR_EXPOSURE_REMAPPED_PREFIX_SHELL=my_exposure_layers_
+PROJECT_FILE=/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/my.pto
+PROJECT_FILE_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/my.pto
+LDR_BLENDED=my.jpg
+LDR_BLENDED_SHELL=my.jpg
+LDR_STACKED_BLENDED=my_fused.jpg
+LDR_STACKED_BLENDED_SHELL=my_fused.jpg
+LDR_EXPOSURE_LAYERS_FUSED=my_blended_fused.jpg
+LDR_EXPOSURE_LAYERS_FUSED_SHELL=my_blended_fused.jpg
+HDR_BLENDED=my_hdr.exr
+HDR_BLENDED_SHELL=my_hdr.exr
+
+# first input image
+INPUT_IMAGE_1=/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/pano.jpg
+INPUT_IMAGE_1_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/pano.jpg
+
+# all input images
+INPUT_IMAGES=/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0219.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0220.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0221.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0222.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0223.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0224.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0225.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0226.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0227.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0228.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0229.JPG
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/16/GOPR0230.JPG
