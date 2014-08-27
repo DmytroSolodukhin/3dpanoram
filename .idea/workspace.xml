@@ -23,82 +23,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="create_scripts.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/create_scripts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="0" selection-start="2410" selection-end="2523" vertical-scroll-proportion="-24.208334" vertical-offset="1069" max-vertical-offset="1800">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mirror_img.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mirror_img.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="0" selection-end="492" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="create_panorams.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="32" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.23972602" vertical-offset="740" max-vertical-offset="1470">
+            <state line="24" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.5091938" vertical-offset="0" max-vertical-offset="707">
+              <folding>
+                <element signature="e#6#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+              <folding>
+                <element signature="e#6#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my1.pto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my1.pto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="4" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my.pto.src" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.src">
+      <file leaf-file-name="my.pto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/6/my.pto">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1500">
+            <state line="301" column="22" selection-start="22096" selection-end="22096" vertical-scroll-proportion="0.0" vertical-offset="4240" max-vertical-offset="4980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my.pto.mk" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk">
+      <file leaf-file-name="my.pto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="10" selection-start="13852" selection-end="13852" vertical-scroll-proportion="-8.851851" vertical-offset="5836" max-vertical-offset="8580">
+            <state line="4" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/1.php">
+      <file leaf-file-name="my2.pto" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my2.pto">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.mk" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/test.mk">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="479" column="46" selection-start="16521" selection-end="16530" vertical-scroll-proportion="-247.18518" vertical-offset="511" max-vertical-offset="8580">
+            <state line="111" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-26.875" vertical-offset="945" max-vertical-offset="2430">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="counter.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/17/counter.txt">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.src" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/test.src">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.bash" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/create.bash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.bash" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/create.bash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="168" column="11" selection-start="2681" selection-end="2691" vertical-scroll-proportion="0.0" vertical-offset="2354" max-vertical-offset="3135">
               <folding />
             </state>
           </provider>
@@ -120,7 +133,6 @@
         <option value="$PROJECT_DIR$/tree/build/three.min.js" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/tree/build/three.js" />
-        <option value="$PROJECT_DIR$/tree/common.js" />
         <option value="$PROJECT_DIR$/shivka/spisok" />
         <option value="$PROJECT_DIR$/shivka/create.bash" />
         <option value="$PROJECT_DIR$/shivka/projects/firstproj/7/counter.txt" />
@@ -133,6 +145,11 @@
         <option value="$PROJECT_DIR$/shivka/my.pto.mk" />
         <option value="$PROJECT_DIR$/shivka/1.php" />
         <option value="$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk" />
+        <option value="$USER_HOME$/ДС - мотивация 072014.txt" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tree/common.js" />
+        <option value="$PROJECT_DIR$/shivka/projects/firstproj/6/my.pto" />
         <option value="$PROJECT_DIR$/shivka/create_panorams.php" />
       </list>
     </option>
@@ -140,9 +157,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1535" />
-    <option name="height" value="904" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,7 +216,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dpanoram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="shivka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3dpanoram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shivka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +296,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="7" />
+              <option name="myItemId" value="3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,28 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3dpanoram" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firstproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firstroom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,11 +320,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ДС - мотивация 072014.txt" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shivka/projects/firstproj/1" />
       <recent name="$PROJECT_DIR$/shivka/projects/firstproj/7" />
       <recent name="$PROJECT_DIR$/shivka/projects/firstproj" />
     </key>
@@ -332,21 +360,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2267101" sideWeight="0.6706587" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -370,30 +398,11 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shivka/my.pto.src">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="172" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/panotest/7/fi.pto.mk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="10" selection-start="0" selection-end="24246" vertical-scroll-proportion="0.0" vertical-offset="3450" max-vertical-offset="8505">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shivka/my.pto.mk">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="0" selection-start="1761" selection-end="1798" vertical-scroll-proportion="0.0" vertical-offset="885" max-vertical-offset="8580">
@@ -408,16 +417,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
+    <entry file="file://$PROJECT_DIR$/shivka/create_scripts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="12" selection-start="1021" selection-end="1082" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="14" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
@@ -464,7 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
+    <entry file="file://$PROJECT_DIR$/shivka/create_scripts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="119" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
           <folding />
@@ -568,11 +570,6 @@
         <state line="27853" column="4" selection-start="603079" selection-end="603079" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="18" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="7290" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shivka/spisok">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
@@ -614,7 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shivka/test.src">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="3421" selection-end="3421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
+        <state line="94" column="0" selection-start="3451" selection-end="3451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>
@@ -626,23 +623,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="116" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shivka/create.bash">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/create.bash">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
           <folding />
         </state>
       </provider>
@@ -661,29 +644,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.mk">
+    <entry file="file://$USER_HOME$/ДС - мотивация 072014.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="10" selection-start="13852" selection-end="13852" vertical-scroll-proportion="-8.851851" vertical-offset="5836" max-vertical-offset="8580">
+        <state line="29" column="0" selection-start="862" selection-end="862" vertical-scroll-proportion="0.5831099" vertical-offset="0" max-vertical-offset="746">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto.src">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1500">
+        <state line="111" column="0" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-26.875" vertical-offset="945" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="11" selection-start="2681" selection-end="2691" vertical-scroll-proportion="0.0" vertical-offset="2354" max-vertical-offset="3135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="305" column="0" selection-start="6691" selection-end="6775" vertical-scroll-proportion="24.592592" vertical-offset="5239" max-vertical-offset="8940">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="108" selection-end="108" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+          <folding>
+            <element signature="e#6#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my2.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/7/my1.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="4" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/projects/firstproj/6/my.pto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="22" selection-start="22096" selection-end="22096" vertical-scroll-proportion="0.0" vertical-offset="4240" max-vertical-offset="4980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mirror_img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="0" selection-end="492" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivka/create_scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="0" selection-start="2410" selection-end="2523" vertical-scroll-proportion="-24.208334" vertical-offset="1069" max-vertical-offset="1800">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shivka/create_panorams.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="32" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.23972602" vertical-offset="740" max-vertical-offset="1470">
-          <folding />
+        <state line="24" column="13" selection-start="488" selection-end="488" vertical-scroll-proportion="0.5091938" vertical-offset="0" max-vertical-offset="707">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

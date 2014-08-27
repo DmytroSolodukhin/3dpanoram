@@ -70,30 +70,66 @@ $points = json_encode($dbxml);
 
 </script>
 </div>
-<!--
+
 <div id="look_image">
     <div id="opacity">
+        <div id="info" class="control">
+
+        </div>
+
+        <div id="fullscrin" class="control">
+
+        </div>
+
+
+        <div id="fov_out" class="control">
+
+        </div>
+
+        <div id="fov_in" class="control">
+
+        </div>
+
+
+        <div id="down_control" class="control">
+
+        </div>
+
+
+        <div id="up_control" class="control">
+
+        </div>
+
+        <div id="right_control" class="control">
+
+        </div>
+
+
+        <div id="left_control" class="control">
+
+        </div>
+
+
+        <div id="autorotate" class="control">
+
+
+        </div>
+
+
+
+
+
+
+
 
     </div>
     <div id="img_in">
-        <?php
 
 
-/*здесь можно сделать перебор фотографий
-        if ($handle = opendir('/projects/'.$poject.'/images')) {
 
-            // Именно этот способ чтения элементов каталога является правильным.
-            while (false !== ($file = readdir($handle))) {
-                echo "$file\n";
-            }
-
-            closedir($handle);
-        }
-        */
-        ?>
     </div>
 </div>
--->
+
 
 <!-- стрелки
 <div id="menu_next">

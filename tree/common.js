@@ -1,5 +1,5 @@
 
-var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array, controls, point;
+var camera, scene, renderer, pano, share_plus, domEvents, koef = 3, point_array, controls, point, intervalID, autorotate=false;
 var points_array_group = new Array(), real_array = new Array();
 
 var isUserInteracting = false,
@@ -11,18 +11,128 @@ var isUserInteracting = false,
     webGl = null;
 
 
+
 if( device.tablet() || device.mobile() ) {
     tablet = true;
 }
 
 var panosize = sizePanoView();
 
+
+
 point_round(points_array);
 init();
 viewPoints();
 animate();
 
+/**
+ * управление на кнопках
+ */
+$('#container').on('mousedown',function(){
 
+    $(this).attr("style","cursor:all-scroll");
+});
+
+$('#container').on('mouseup',function(){
+    stopcontrol();
+    $(this).attr("style","cursor:pointer");
+
+});
+
+
+$('#left_control').on('mousedown',function(){
+    stopcontrol();
+intervalID=setInterval(function(){lon--;},50);
+
+});
+
+$('#left_control').on('mouseup',function(){
+    stopcontrol();
+});
+
+$('#right_control').on('mousedown',function(){
+    stopcontrol();
+intervalID=setInterval(function(){lon++;},50);
+
+});
+
+$('#right_control').on('mouseup',function(){
+    stopcontrol();
+});
+
+$('#autorotate').on('click',function(){
+    clearInterval(intervalID);
+if(autorotate){
+    stopcontrol();
+
+}else{
+    intervalID=setInterval(function(){lon++;},50);
+    autorotate=true;
+}
+
+});
+
+
+$('#down_control').on('mousedown',function(){
+    stopcontrol();
+    intervalID=setInterval(function(){lat--;},50);
+
+});
+
+$('#down_control').on('mouseup',function(){
+    stopcontrol();
+});
+
+$('#up_control').on('mousedown',function(){
+    stopcontrol();
+    intervalID=setInterval(function(){lat++;},50);
+
+});
+
+$('#up_control').on('mouseup',function(){
+    stopcontrol();
+});
+
+
+$('#fov_out').on('mousedown',function(){
+    stopcontrol();
+    intervalID=setInterval(function(){
+
+        if(camera.fov <= 55){
+
+            camera.fov = camera.fov+1;
+            camera.updateProjectionMatrix();
+        }
+    },50);
+
+});
+
+$('#fov_out').on('mouseup',function(){
+    stopcontrol();
+    camera.updateProjectionMatrix();
+});
+
+
+
+$('#fov_in').on('mousedown',function(){
+    stopcontrol();
+    intervalID=setInterval(function(){
+        if(camera.fov >= 10){
+            camera.fov--;
+            camera.updateProjectionMatrix();
+        }
+    },50);
+});
+
+$('#fov_in').on('mouseup',function(){
+    stopcontrol();
+    camera.updateProjectionMatrix();
+});
+
+function stopcontrol(){
+    autorotate=false;
+    clearInterval(intervalID);
+}
 
 /* здесь может быть отработка для планшетов для управление панорамой с помощью наклонов
  window.ondevicemotion = function(event){
@@ -134,7 +244,7 @@ function viewPoints(){
         }
 
 
-            real_array[i].position.y = -((share_plus*koef)/2)-100;
+        real_array[i].position.y = -((share_plus*koef)/2)-100;
         real_array[i].position.x = points_array_group[i]['xcoord']*koef;
         real_array[i].position.z = points_array_group[i]['ycoord']*koef;
 
@@ -189,7 +299,6 @@ function viewPoints(){
 function clickToNewPoint(newPoint){
 
     point = newPoint;
-    console.debug(point);
     point_round(points_array);
     init();
     viewPoints();
@@ -211,7 +320,7 @@ function init() {
     camera.position.x = point_array['xcoord']*koef;
     camera.position.z = point_array['ycoord']*koef;
 
-    controls = new THREE.FlyControls(camera);
+    /*controls = new THREE.FlyControls(camera);
     	controls.movementSpeed = 100;
         controls.domElement = container;
         controls.rollSpeed = 0;
@@ -219,7 +328,7 @@ function init() {
         controls.dragToLook = false;
    // controls.lookSpeed = 1.6;
 
-
+*/
     scene = new THREE.Scene();
 
     var geometry = new THREE.SphereGeometry( (share_plus*koef) + 150, 100, 100 );
@@ -327,12 +436,12 @@ function onDocumentMouseMove( event ) {
 
         if(tablet){
 
-            lon = ( onPointerDownPointerX - event.targetTouches[0].pageX ) * 0.05 + onPointerDownLon;
-            lat = ( event.targetTouches[0].pageY - onPointerDownPointerY ) * 0.05 + onPointerDownLat;
+            lon = ( onPointerDownPointerX - event.targetTouches[0].pageX ) * 0.11 + onPointerDownLon;
+            lat = ( event.targetTouches[0].pageY - onPointerDownPointerY ) * 0.11 + onPointerDownLat;
 
         }else{
-            lon = ( onPointerDownPointerX - event.clientX ) * 0.05 + onPointerDownLon;
-            lat = ( event.clientY - onPointerDownPointerY ) * 0.05 + onPointerDownLat;
+            lon = ( onPointerDownPointerX - event.clientX ) * 0.11 + onPointerDownLon;
+            lat = ( event.clientY - onPointerDownPointerY ) * 0.11 + onPointerDownLat;
         }
 
     }
@@ -358,17 +467,26 @@ function onDocumentMouseWheel( event ) {
 
     if ( event.wheelDeltaY ) {
 
-        camera.fov -= event.wheelDeltaY * 0.05;
+        if((camera.fov - event.wheelDeltaY * 0.05) <= 55 && (camera.fov - event.wheelDeltaY * 0.05) >= 10){
+
+            camera.fov -= event.wheelDeltaY * 0.05;
+        }
 
         // Opera / Explorer 9
     } else if ( event.wheelDelta ) {
 
-        camera.fov -= event.wheelDelta * 0.05;
+        if((camera.fov - event.wheelDelta * 0.05)<=55 && (camera.fov - event.wheelDelta * 0.05)>=10){
+
+            camera.fov -= event.wheelDelta * 0.05;
+        }
 
         // Firefox
     } else if ( event.detail ) {
 
-        camera.fov += event.detail * 1.0;
+        if((camera.fov + event.detail * 1.0)<=55 && (camera.fov + event.detail * 1.0)>=10){
+
+            camera.fov += event.detail * 1.0;
+        }
     }
 
     camera.updateProjectionMatrix();
@@ -391,7 +509,7 @@ function animate() {
  */
 function update() {
 
-    controls.update(0.1);
+    //controls.update(0.1);
 
     lat = Math.max( - 85, Math.min( 85, lat ) );
     phi = THREE.Math.degToRad( 90 - lat );
@@ -445,14 +563,6 @@ function perehvat(){
 
 // ограничение на приближение и удаление камеры
 function stopcamera(){
-
-    //приближение
-    if(camera.fov > 80){
-        camera.fov = 80;
-    };
-    if(camera.fov < 10){
-        camera.fov = 10;
-    };
 
     //движение по сфере
 

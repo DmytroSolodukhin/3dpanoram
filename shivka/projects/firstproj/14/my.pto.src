@@ -7,29 +7,29 @@ m g1 i0 f0 m2 p0.00784314
 
 
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v92.9622919059439 Ra0 Rb0 Rc0 Rd0 Re0 Eev9.40145660741198 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  Vm5 n"GOPR0213.JPG"
+i w3000 h4000 f2 v92.9622919059439 Ra0 Rb0 Rc0 Rd0 Re0 Eev9.40145660741198 Er1 Eb1 r0 p10 y0 TrX0 TrY0 TrZ0 j0 a0 b0 c0 d0 e0 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  Vm5 n"GOPR0213.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0211.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r0 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0211.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0218.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.05279213005249 Er1 Eb1 r-65 p10 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0218.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.77772681721223 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0214.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.77772681721223 Er1 Eb1 r-65 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0214.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.7444067440122 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0212.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.7444067440122 Er1 Eb1 r-130 p10 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0212.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.34926880217106 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0209.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.34926880217106 Er1 Eb1 r-130 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0209.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.48577080207592 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0210.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev7.48577080207592 Er1 Eb1 r160 p10 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0210.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.33928471359844 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0207.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.33928471359844 Er1 Eb1 r160 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0207.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.25423144052476 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0215.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.25423144052476 Er1 Eb1 r90 p10 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0215.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.68630378944863 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0216.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev8.68630378944863 Er1 Eb1 r90 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0216.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.31094431450654 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0217.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.31094431450654 Er1 Eb1 r25 p10 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0217.JPG"
 #-hugin  cropFactor=1
-i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.1195182438533 Er1 Eb1 r0 p0 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0208.JPG"
+i w3000 h4000 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev9.1195182438533 Er1 Eb1 r25 p30 y0 TrX0 TrY0 TrZ0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"GOPR0208.JPG"
 
 
 # specify variables that should be optimized

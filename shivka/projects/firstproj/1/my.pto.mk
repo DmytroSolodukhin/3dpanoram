@@ -52,34 +52,34 @@ HDR_BLENDED=my_hdr.exr
 HDR_BLENDED_SHELL=my_hdr.exr
 
 # first input image
-INPUT_IMAGE_1=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG
-INPUT_IMAGE_1_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG
+INPUT_IMAGE_1=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG
+INPUT_IMAGE_1_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG
 
 # all input images
-INPUT_IMAGES=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@
-INPUT_IMAGES_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG\
-/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@
+INPUT_IMAGES=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG
+INPUT_IMAGES_SHELL=/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG\
+/var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG
 
 # remapped images
 LDR_LAYERS=my0000.tif\
@@ -376,141 +376,141 @@ info :
 	@echo '==========================================================================='
 	@echo 'Number of images in project file: 12'
 	@echo 'Number of active images: 12'
-	@echo 'Image 0: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG'
+	@echo 'Image 0: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG'
 	@echo 'Image 0: Size 3000x4000, Exposure: 9.40'
-	@echo 'Image 1: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG'
+	@echo 'Image 1: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG'
 	@echo 'Image 1: Size 3000x4000, Exposure: 9.05'
-	@echo 'Image 2: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG'
+	@echo 'Image 2: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG'
 	@echo 'Image 2: Size 3000x4000, Exposure: 9.05'
-	@echo 'Image 3: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG'
+	@echo 'Image 3: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG'
 	@echo 'Image 3: Size 3000x4000, Exposure: 8.78'
-	@echo 'Image 4: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG'
+	@echo 'Image 4: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG'
 	@echo 'Image 4: Size 3000x4000, Exposure: 7.74'
-	@echo 'Image 5: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG'
+	@echo 'Image 5: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG'
 	@echo 'Image 5: Size 3000x4000, Exposure: 8.35'
-	@echo 'Image 6: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG'
+	@echo 'Image 6: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG'
 	@echo 'Image 6: Size 3000x4000, Exposure: 7.49'
-	@echo 'Image 7: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG'
+	@echo 'Image 7: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG'
 	@echo 'Image 7: Size 3000x4000, Exposure: 8.34'
-	@echo 'Image 8: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG'
+	@echo 'Image 8: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG'
 	@echo 'Image 8: Size 3000x4000, Exposure: 8.25'
-	@echo 'Image 9: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG'
+	@echo 'Image 9: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG'
 	@echo 'Image 9: Size 3000x4000, Exposure: 8.69'
-	@echo 'Image 10: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG'
+	@echo 'Image 10: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG'
 	@echo 'Image 10: Size 3000x4000, Exposure: 9.31'
-	@echo 'Image 11: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@'
+	@echo 'Image 11: /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG'
 	@echo 'Image 11: Size 3000x4000, Exposure: 9.12'
 
 # Rules for ordinary TIFF_m and hdr output
 
-my0000.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG $(PROJECT_FILE)
+my0000.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 0 $(PROJECT_FILE_SHELL)
 
-my_hdr_0000.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG $(PROJECT_FILE)
+my_hdr_0000.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 0 $(PROJECT_FILE_SHELL)
 
-my0001.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG $(PROJECT_FILE)
+my0001.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 1 $(PROJECT_FILE_SHELL)
 
-my_hdr_0001.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG $(PROJECT_FILE)
+my_hdr_0001.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 1 $(PROJECT_FILE_SHELL)
 
-my0002.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG $(PROJECT_FILE)
+my0002.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 2 $(PROJECT_FILE_SHELL)
 
-my_hdr_0002.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG $(PROJECT_FILE)
+my_hdr_0002.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 2 $(PROJECT_FILE_SHELL)
 
-my0003.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG $(PROJECT_FILE)
+my0003.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 3 $(PROJECT_FILE_SHELL)
 
-my_hdr_0003.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG $(PROJECT_FILE)
+my_hdr_0003.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 3 $(PROJECT_FILE_SHELL)
 
-my0004.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG $(PROJECT_FILE)
+my0004.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 4 $(PROJECT_FILE_SHELL)
 
-my_hdr_0004.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG $(PROJECT_FILE)
+my_hdr_0004.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 4 $(PROJECT_FILE_SHELL)
 
-my0005.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG $(PROJECT_FILE)
+my0005.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 5 $(PROJECT_FILE_SHELL)
 
-my_hdr_0005.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG $(PROJECT_FILE)
+my_hdr_0005.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 5 $(PROJECT_FILE_SHELL)
 
-my0006.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG $(PROJECT_FILE)
+my0006.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 6 $(PROJECT_FILE_SHELL)
 
-my_hdr_0006.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG $(PROJECT_FILE)
+my_hdr_0006.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 6 $(PROJECT_FILE_SHELL)
 
-my0007.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG $(PROJECT_FILE)
+my0007.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 7 $(PROJECT_FILE_SHELL)
 
-my_hdr_0007.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG $(PROJECT_FILE)
+my_hdr_0007.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 7 $(PROJECT_FILE_SHELL)
 
-my0008.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG $(PROJECT_FILE)
+my0008.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 8 $(PROJECT_FILE_SHELL)
 
-my_hdr_0008.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG $(PROJECT_FILE)
+my_hdr_0008.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 8 $(PROJECT_FILE_SHELL)
 
-my0009.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG $(PROJECT_FILE)
+my0009.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 9 $(PROJECT_FILE_SHELL)
 
-my_hdr_0009.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG $(PROJECT_FILE)
+my_hdr_0009.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 9 $(PROJECT_FILE_SHELL)
 
-my0010.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG $(PROJECT_FILE)
+my0010.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 10 $(PROJECT_FILE_SHELL)
 
-my_hdr_0010.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG $(PROJECT_FILE)
+my_hdr_0010.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 10 $(PROJECT_FILE_SHELL)
 
-my0011.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@ $(PROJECT_FILE)
+my0011.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -m TIFF_m -o $(LDR_REMAPPED_PREFIX_SHELL) -i 11 $(PROJECT_FILE_SHELL)
 
-my_hdr_0011.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@ $(PROJECT_FILE)
+my_hdr_0011.exr : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) -r hdr -m EXR_m -o $(HDR_STACK_REMAPPED_PREFIX_SHELL) -i 11 $(PROJECT_FILE_SHELL)
 
 # Rules for exposure layer output
 
-my_exposure_layers_0000.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0003.JPG $(PROJECT_FILE)
+my_exposure_layers_0000.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0023.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 9.40146 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 0 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0001.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0005.JPG $(PROJECT_FILE)
+my_exposure_layers_0001.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0013.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 9.05279 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 1 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0002.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0007.JPG $(PROJECT_FILE)
+my_exposure_layers_0002.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0022.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 9.05279 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 2 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0010.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0002.JPG $(PROJECT_FILE)
+my_exposure_layers_0010.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0017.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 9.31094 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 10 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0011.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/@@%%12%%@@ $(PROJECT_FILE)
+my_exposure_layers_0011.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0014.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 9.11952 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 11 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0003.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0006.JPG $(PROJECT_FILE)
+my_exposure_layers_0003.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0015.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 8.77773 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 3 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0005.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0009.JPG $(PROJECT_FILE)
+my_exposure_layers_0005.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0020.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 8.34927 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 5 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0007.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0011.JPG $(PROJECT_FILE)
+my_exposure_layers_0007.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0018.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 8.33928 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 7 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0009.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0004.JPG $(PROJECT_FILE)
+my_exposure_layers_0009.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0024.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 8.6863 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 9 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0004.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0010.JPG $(PROJECT_FILE)
+my_exposure_layers_0004.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0019.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 7.74441 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 4 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0006.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0008.JPG $(PROJECT_FILE)
+my_exposure_layers_0006.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0016.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 7.48577 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 6 $(PROJECT_FILE_SHELL)
 
-my_exposure_layers_0008.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0012.JPG $(PROJECT_FILE)
+my_exposure_layers_0008.tif : /var/www/3dp/3dpanoram/shivka/projects/firstproj/1/GOPR0021.JPG $(PROJECT_FILE)
 	$(NONA) $(NONA_OPTS) $(NONA_LDR_REMAPPED_COMP) -r ldr -e 8.25423 -m TIFF_m -o $(LDR_EXPOSURE_REMAPPED_PREFIX_SHELL) -i 8 $(PROJECT_FILE_SHELL)
 
 # Rules for LDR and HDR stack merging, a rule for each stack

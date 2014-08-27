@@ -22,7 +22,7 @@ body {
     height: 30px;
 }
 
-#look_image img {
+#look_image .control {
     z-index: 11;
     max-height: 29px;
 }
@@ -50,6 +50,7 @@ body {
 #container {
     position: absolute;
     z-index: 1;
+    cursor: pointer;
 }
 
 #menu_next {
@@ -153,4 +154,50 @@ body {
     background: url("images/row.png");
     background-position: -356px 0;
     background-repeat: no-repeat;
+}
+
+.control {
+    width: 36px;
+    height: 50px;
+    background:url("images/controls.png");
+    background-repeat: no-repeat;
+    float: right;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+#autorotate {
+    background-position: 3px;
+}
+
+#left_control{
+    background-position: -31px;
+}
+
+#right_control {
+    background-position: -64px;
+}
+
+#up_control{
+    background-position: -96px;
+}
+
+#down_control {
+    background-position: -130px;
+}
+
+#fov_in{
+    background-position: -166px;
+}
+
+#fov_out {
+    background-position: -200px;
+}
+
+#fullscrin{
+    background-position: -252px;
+}
+
+#info {
+    background-position: -294px;
 }
